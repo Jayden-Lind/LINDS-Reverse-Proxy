@@ -7,3 +7,5 @@ COPY wildcard.crt /etc/nginx/wildcard.crt
 COPY wildcard.key /etc/nginx/wildcard.key
 
 RUN apk update && apk add bash
+
+EXPOSE 443 80
